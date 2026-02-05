@@ -1,0 +1,6 @@
+@corusesStduentRelation_HostAddress = http://localhost:5269
+
+GET {{corusesStduentRelation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
