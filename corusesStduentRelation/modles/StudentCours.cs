@@ -17,6 +17,26 @@ namespace corusesStduentRelation.modles
         [Required]
         public double Mark { get; set; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         public Student Student { get; set; }
         public Courses Course { get; set; }
 

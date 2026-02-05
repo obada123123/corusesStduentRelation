@@ -18,7 +18,7 @@ namespace corusesStduentRelation.Database
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<StudentCours>()
-                .HasKey(sc => new { sc.StudentId, sc.CourseId });
+                .HasKey(sc => new { sc.StudentId, sc.CourseId,sc.Date });
 
             modelBuilder.Entity<StudentCours>()
                 .HasOne(sc => sc.Student)
